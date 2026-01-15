@@ -173,7 +173,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {/* Header */}
           <div className="h-14 flex items-center justify-between flex-shrink-0 px-6 mt-2">
              <a
-                 href="http://go/loupeit"
+                 href="https://haaans.com/loupe/"
                  target="_blank"
                  rel="noopener noreferrer"
                  className="flex items-center gap-3 group -ml-2 p-2 rounded-lg transition-colors"
@@ -184,20 +184,20 @@ export const Sidebar: React.FC<SidebarProps> = ({
                          Loupe
                      </h1>
                      <h1 className="absolute inset-0 flex items-center text-[11px] font-medium text-zinc-500 dark:text-zinc-400 tracking-tight leading-none transition-all duration-300 translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                         Maginfy yo life
+                         Zoom Zoom
                      </h1>
                  </div>
              </a>
              <div className="flex items-center gap-1">
                  <a
-                     href="https://haaans.com/loupe/"
+                     href="https://haaans.com/about/"
                      target="_blank"
                      rel="noopener noreferrer"
                      className="group flex items-center gap-1.5 p-2 rounded-full text-zinc-500 hover:text-zinc-900 dark:hover:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-all overflow-hidden max-w-[32px] hover:max-w-[105px]"
                      title="About"
                  >
                      <CircleHelp className="w-4 h-4 flex-shrink-0" />
-                     <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-[11px] font-medium">made by Hans</span>
+                     <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-[11px] font-medium">by Hans</span>
                  </a>
                  <button
                     onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
