@@ -1,37 +1,56 @@
-# Loupe 🔍
+# `loupe`
 
-> **Focus on what matters.** Create beautiful, magnified screenshots and diagrams in seconds.
+Magnify the detail that matters in any screenshot. Paste it in, drop a lens on it, and copy the result straight into your slides.
 
-![Loupe Preview](fill-murray-1.jpg)
 
-Loupe is a polished, browser-based tool designed to help you highlight specific details in your images. Whether you're creating documentation, reporting bugs, or sharing design feedback, Loupe makes your screenshots pop.
+<div align="center">
+  
+[<kbd><br>haaans.com/loupe<br><br></kbd>](https://haaans.com/loupe/)
 
----
+</div>
 
-### ✨ Features
 
-*   **🔎 Multi-Lens Zoom:** Drop multiple magnification lenses to highlight key details simultaneously.
-*   **🎨 Studio Controls:** Customize borders, drop shadows, and corner rounding for a professional look.
-*   **🌫️ Smart Backgrounds:** Auto-dim (scrim), blur, or grayscale the background to drive focus to your lenses.
-*   **✂️ Crop & Frame:** Compose your shot perfectly without needing external tools.
-*   **📋 Drag, Drop, Copy:** Seamless workflow—drag images in, tweak, and copy the result directly to your clipboard.
+<p align="center">
+<img src="demos/hero.gif" alt="Pasting a screenshot into Loupe, magnifying the credentials form, copying it and pasting it into Google Slides" width="500">
+</p>
 
-### 🛠️ Built With
+## Features
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-
-### 🚀 Get Started
-
-```bash
-# Install dependencies
-yarn install
-
-# Start the dev server
-yarn watch
-
-# Build for production
-yarn build
-```
+<table>
+<tr valign="top">
+<td width="50%">
+<h3>Drag the lens anywhere</h3>
+<p>Grab the lens and slide it over whatever you want people to see. The magnified view follows live.</p>
+</td>
+<td width="50%">
+<img src="demos/drag.gif" alt="Drag the lens anywhere">
+</td>
+</tr>
+<tr valign="top">
+<td width="50%">
+<img src="demos/size.gif" alt="Scroll to size it, ⌘-scroll to zoom">
+</td>
+<td width="50%">
+<h3>Scroll to size it, ⌘-scroll to zoom</h3>
+<p>Scroll over the lens to make it bigger or smaller. Hold ⌘ and scroll to zoom in closer.</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="50%">
+<h3>Add as many lenses as you need</h3>
+<p>The + adds another lens, each with its own size, zoom, border and shadow.</p>
+</td>
+<td width="50%">
+<img src="demos/multi.gif" alt="Add as many lenses as you need">
+</td>
+</tr>
+<tr valign="top">
+<td width="50%">
+<img src="demos/frame.gif" alt="Pull focus to the lens">
+</td>
+<td width="50%">
+<h3>Pull focus to the lens</h3>
+<p>Fade, darken or lighten everything around the lens so the detail stands out. When it looks right, Copy puts it on your clipboard.</p>
+</td>
+</tr>
+</table>
