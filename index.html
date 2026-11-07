@@ -71,6 +71,24 @@
 }
 </script>
 <link rel="stylesheet" href="index.css">
+<!-- Google Analytics: page address only, so nothing kept in the URL reaches Google -->
+<script>
+(function () {
+  if (location.hostname !== 'haaans.com') return;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { dataLayer.push(arguments); };
+  gtag('js', new Date());
+  gtag('config', 'G-MGSJYZJ5YJ', {
+    content_group: 'loupe',
+    page_location: location.origin + location.pathname,
+    page_referrer: document.referrer.split(/[?#]/)[0]
+  });
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MGSJYZJ5YJ';
+  document.head.appendChild(s);
+})();
+</script>
 </head>
 <body class="h-full overflow-hidden bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-200">
     <div id="root" class="h-full flex flex-col"></div>
