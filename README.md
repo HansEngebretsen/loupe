@@ -1,6 +1,6 @@
 # `loupe`
 
-Magnify the detail that matters in any screenshot. Paste it in, drop a lens on it, and copy the result straight into your slides.
+Show just what matters in a mockup in a single click. Paste it in, drop a lens on it, and copy the result straight into your slides.
 
 
 <div align="center">
